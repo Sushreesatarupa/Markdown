@@ -64,6 +64,8 @@ Your text will look like this:
 ##### Heading level 5
 ###### Heading level 6
 
+---
+
 ## Paragraphs
 When writing your Markdown body text, you’ll likely want to split your information up into paragraphs (with a noticeable gap between each paragraph). Paragraphs are divided by a blank line (a line containing no characters) between consecutive paragraphs.
 
@@ -71,7 +73,7 @@ Your text will look like this:
 Paragraph 1
 
 Paragraph 2
-
+---
 ## Line breaks
 
 Sometimes, you’ll want to split your information up by inserting a new line, with less space than you’d get from formatting as a paragraph. This is called a line break.
@@ -81,7 +83,7 @@ To insert a line break into your Markdown file, finish your line with at least t
 Your text will look like this:
 Line 1
 Line 2
-
+---
 ## Formatting text in Markdown
 To format the text, follow these rules:
 <br>
@@ -100,25 +102,25 @@ To format the text, follow these rules:
 - For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
 - For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
 
-
+---
 
 ## Emphasis
 When writing your content in Markdown, you might want to place a bit more emphasis on certain words or phrases. The first way you can emphasise your text is in italics.
 
 You can make your text italic by wrapping your text with one asterisk on each side (alternatively, you can use underscores in place of the asterisks). Once your application detects the second asterisk, your formatting for this element is considered “closed”.
 Your text will look like this:
-*This text is italic*
-_This text is also italic_
+  *This text is italic*
+  _This text is also italic_
 
 Bold formatting provides a slightly heavier emphasis than italics, but it works in exactly the same way. This time, use two asterisks to wrap the text you want to make bold (alternatively, you can use underscores in place of asterisks).
 Your text will look like this:
-**This text is bold**
-__This text is also bold__
+  **This text is bold**
+  __This text is also bold__
 
 If you really want to make a point, you can make your text simultaneously bold and italic to give it even more weight! To make your text bold and italic, use three asterisks (or three underscores) to wrap your word or phrase.
 Your text will look like this:
-***This text is italic and bold.***
-___This text is also italic and bold___
+  ***This text is italic and bold.***
+  ___This text is also italic and bold___
 
 ```markdown
 *This text is italic*

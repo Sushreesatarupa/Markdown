@@ -3,24 +3,22 @@
 
 ### Markdown
 
-Markdown is a free markup language with simple formatting syntax. Use it for creating webpages, documents or any text that needs to be transformed into other formats like HTML.
+- Markdown is a lightweight markup language. It allows you to style a digital text document using typical formatting techniques: for example, headings, emphasis, lists, images, and links. Markdown files have extensions .md or .markdown. Also, Markdown can also be converted into XHTML or HTML to display nicely in a browser.
 
-Markdown is a lightweight markup language. It allows you to style a digital text document using typical formatting techniques: for example, headings, emphasis, lists, images, and links. Markdown files are stored as .md or .markdown. Also, Markdown can be optionally converted into XHTML or HTML to display nicely in a browser.
+- Some of the many uses of Markdown are readme files, writing messages in online discussion forums, creating rich text using a plain text editor, emails, and technical documentation. Popular sites that use Markdown include GitHub, Trello, Reddit, SourceForge, and StackExchange, among many others.
 
-Some of the many uses of Markdown are readme files, writing messages in online discussion forums, creating rich text using a plain text editor, emails, and technical documentation. Popular sites that use Markdown include GitHub, Trello, Reddit, SourceForge, and StackExchange, among many others.
-
-Writers can have as much control over the presentation of their information without resorting to full HTML tagging. At the same time, Markdown parsers also support dropping in blocks of HTML code that add to Markdown’s limited syntax, in case you want to achieve a more complex design 
+- Writers can have as much control over the presentation of their information without resorting to complete HTML tagging. At the same time, Markdown parsers also support dropping in blocks of HTML code that add to Markdown’s limited syntax if you want to achieve a more complex design. 
 
 ### Why use Markdown?
-It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
+- It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
 
-You don’t even have to be a developer to pick up the basics. The advantage of Markdown is that once you know how it works, it’s very easy to write. It’s intuitively easy to pick up because it’s based on email formatting conventions that many people have been exposed to already.
+- You don't even have to be a developer to pick up the basics. The advantage of Markdown is that it's straightforward to write once you know how it works. It's intuitively easy to pick up because it has a base of email formatting conventions that many people are exposed to already.
 
-You can also easily read Markdown in its raw state, unlike for example raw HTML, which is full of tags. The Markdown syntax flows perfectly with the rest of your writing, and it’s intuitively clear what the syntax means.
+- You can also easily read Markdown in its raw state, unlike, for example, plain HTML, which is full of tags. The Markdown syntax flows perfectly with the rest of your writing, and it's intuitively clear what the syntax means.
 
-Markdown is platform-independent, which means you can create Markdown files in any text editor. It’s useful across many different websites and applications.
+- Markdown is platform-independent, which means you can create Markdown files in any text editor. It's applicable across many different websites and applications.
 
-It’s a reusable skill. Markdown is versatile, so you learn it once, and you can use it for lots of different activities. You can use Markdown to take notes, create content for a website, or produce print-ready documents.
+- It's a reusable skill. Markdown is versatile, so you learn it once, and you can use it for lots of different activities. You can use Markdown to take notes, create content for a website, or produce print-ready documents.
 
 # Basics of Markdown
 
@@ -63,9 +61,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 
-
-
-
+---
 
 
 ## Headings

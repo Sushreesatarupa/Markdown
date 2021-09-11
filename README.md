@@ -72,21 +72,31 @@ To format the text, follow these rules:
 
 ### Adding images
 Adding images is like adding links. Just add an exclamation mark at the beginning of the line:
+```markdown
+![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
 
-![alt text](https://pbs.twimg.com/profile_images/556169790587281409/AwkaVrhP_400x400.png).
+```
 
 The image will look like this:
+![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
 
-alt text.
 
-How to produce lists?
+### How to produce lists?
 To add a bulleted or unordered list of items:
 
+```markdown
 - Just add a dash first and then write a text.
 - If you add another dash in the following line, you will have another item in the list.
   - If you add four spaces or use a tab key, you will create an indented list.
     - If you need to insert an indented list within an intended one, just press a tab key again.
+```
+
+
 The formatted text will look like this:
+- Just add a dash first and then write a text.
+- If you add another dash in the following line, you will have another item in the list.
+  - If you add four spaces or use a tab key, you will create an indented list.
+    - If you need to insert an indented list within an intended one, just press a tab key again.
 
 Just add a dash first and then write a text.
 If you add another dash in the following line, you will have another item in the list.

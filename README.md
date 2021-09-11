@@ -266,23 +266,35 @@ The formatted text will look like this:
 
 ___
 
+
+---
+
 ## Code blocks and snippets
 
-Code snippets
-Often when we’re writing in Markdown, we need to reference snippets of code as examples. This is particularly common in technical documentation. Markdown allows you to format code snippets using backticks \` that wrap your code snippet. The first backtick “opens” the snippet, and the second backtick “closes” it.
+### Code snippets
+- Often when we’re writing in Markdown, we need to reference snippets of code as examples. This is particularly common in technical documentation. 
+- Markdown allows you to format code snippets using backticks \` that wrap your code snippet. The first backtick “opens” the snippet, and the second backtick “closes” it.
+
 ```markdown
 `This is a code snippet`
 ```
+
 Your text will look like this:
 `This is a code snippet`
 
 ### Code blocks
-Formatting code blocks is useful when you have a bigger chunk of code to include in your Markdown file. Format your code blocks by indenting every line of your code block using one tab, or four spaces.
-This is a code block
-This is a code block
-This is a code block
+- Formatting code blocks is useful when you have a bigger chunk of code to include in your Markdown file. 
+- Format your code blocks by indenting every line of your code block using one tab, or four spaces.
 
-There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+  This is a code block
+  This is a code block
+  This is a code block
+
+There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  
+```
+`var example = true`
+```
+If you've got a longer block of code, you can indent with four spaces:
 
     if (isAwesome){
       return true

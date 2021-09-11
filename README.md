@@ -130,14 +130,16 @@ The formatted text will look like this:
             by pressing a tab key and typing a dash.
             
 Just type a number followed by a dot.
-If you want to add a second item, just type in another number followed by a dot.
-If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
-If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.
-If need be, you can also add an indented unordered list within an indented numbered one, an vice versa, by pressing a tab key and typing a dash.
-Headers
-If you have longer documents, it is better to give them some structure, which you can actually achieve with headers. Do this with hashes (#):
+- If you want to add a second item, just type in another number followed by a dot.
+- If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
+- If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
+- If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.
+- If need be, you can also add an indented unordered list within an indented numbered one, an vice versa, by pressing a tab key and typing a dash.
 
+### Headers
+- If you have longer documents, it is better to give them some structure, which you can actually achieve with headers. Do this with hashes (#):
+
+```markdown
 # This is a first-tier header
 
 ## This is a second-tier header
@@ -145,12 +147,18 @@ If you have longer documents, it is better to give them some structure, which yo
 ### This is a third-tier header
 
 And so on, up to a sixth-tier header.
+```
 
 The formatted text will look like this:
 
-../../../_images/markdown-headers.png
+# This is a first-tier header
 
-Horizontal Rule
+## This is a second-tier header
+
+### This is a third-tier header
+
+
+### Horizontal Rule
 Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line:
 
 ---

@@ -369,6 +369,8 @@ The quote will look like this:
 —Tara Reid, actress
 And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
 
+
+## Extras
 ```markdown
 GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
 

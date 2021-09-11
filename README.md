@@ -168,12 +168,13 @@ The image will look like this:
 ![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
 
 <br> When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
+
 ---
 ## Lists
 ### Unordered lists
-Sometimes, you may want to format your content in lists to make it easier to read.
-
-The first option is to use an unordered list, where each item on your list is preceded by a bullet point. Markdown allows you to format your lists with a number of different symbols: asterisks (*), hyphens (-) or plus signs (+).
+- Sometimes, you may want to format your content in lists to make it easier to read.
+- The first option is to use an unordered list, where each item on your list is preceded by a bullet point. 
+- Markdown allows you to format your lists with a number of different symbols: asterisks (*), hyphens (-) or plus signs (+).
 
 It’s up to you to choose which symbol you prefer. The result you get is the same.
 
@@ -182,6 +183,11 @@ It’s up to you to choose which symbol you prefer. The result you get is the sa
 - If you add another dash in the following line, you will have another item in the list.
   - If you add four spaces or use a tab key, you will create an indented list.
     - If you need to insert an indented list within an intended one, just press a tab key again.
+ 
+ Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
 ```
 
 
@@ -191,27 +197,16 @@ The formatted text will look like this:
   - If you add four spaces or use a tab key, you will create an indented list.
     - If you need to insert an indented list within an intended one, just press a tab key again.
 
-Just add a dash first and then write a text.
-If you add another dash in the following line, you will have another item in the list.
-If you add four spaces or use a tab key, you will create an indented list.
-If you need to insert an indented list within an intended one, just press a tab key again.
-
-```markdown
 Sometimes you want bullet points:
-
-* Start a line with a star
-* Profit!
-```
-The formatted text will look like this:
 * Start a line with a star
 * Profit!
 
 
 ### Ordered lists
 
-Other times, you may want to present your information sequentially in ordered lists (1, 2, 3, and so on). Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.
-
-In Markdown, it doesn’t matter which numbers you use to format your list, as the list will always render as 1, 2, 3, and so on.
+- Other times, you may want to present your information sequentially in ordered lists (1, 2, 3, and so on). 
+- Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.
+- In Markdown, it doesn’t matter which numbers you use to format your list, as the list will always render as 1, 2, 3, and so on.
 
 
 ```markdown
@@ -235,13 +230,8 @@ The formatted text will look like this:
         just press the tab key again.
             - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
             by pressing a tab key and typing a dash.
-            
-Just type a number followed by a dot.
-- If you want to add a second item, just type in another number followed by a dot.
-- If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-- If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
-- If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.
-- If need be, you can also add an indented unordered list within an indented numbered one, an vice versa, by pressing a tab key and typing a dash.
+
+---
 
 ## Blockquotes
 

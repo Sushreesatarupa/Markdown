@@ -78,6 +78,7 @@ Adding images is like adding links. Just add an exclamation mark at the beginnin
 ```
 
 The image will look like this:
+<br>
 ![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
 
 

@@ -321,10 +321,13 @@ if (isAwesome){
 ```
 
 ## Escaping
-Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
-You escape characters in Markdown using a backslash before the character, with no space in between.
+- Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. 
+- You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
+- You escape characters in Markdown using a backslash before the character, with no space in between.
+
 Your text should look like this:
 \*
+
 You can escape any of these characters:
 ```
 \ backslash
@@ -340,14 +343,24 @@ _ underscore
 . dot
 ! exclamation mark
 ```
-Lists within blockquotes
-Sometimes, you might want to insert a blockquote into your Markdown that contains another element, such as an unordered list. You need to nest your list formatting inside your blockquote formatting.
-Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your block quote. Add your list formatting (*) just after your greater-than signs.
+#### Lists within blockquotes
+- Sometimes, you might want to insert a blockquote into your Markdown that contains another element, such as an unordered list. 
+- You need to nest your list formatting inside your blockquote formatting.
+- Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your block quote. 
+- Add your list formatting (*) just after your greater-than signs.
+````
+> This is a blockquote
+> * This is a list item within a blockquote
+> * This is a list item within a blockquote
+> * This is a list item within a blockquote
+````
 Your text should look like this:
 > This is a blockquote
 > * This is a list item within a blockquote
 > * This is a list item within a blockquote
 > * This is a list item within a blockquote
+
+---
 
 ## HTML
 You can insert HTML elements directly into your Markdown file. For example, you may want to include a button. Insert your HTML exactly as you would in any other HTML document.

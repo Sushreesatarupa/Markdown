@@ -370,30 +370,63 @@ The quote will look like this:
 And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
 
 
-## Extras
-```markdown
-GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
+## GitHub Flavored Markdown
+GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
 
-But I have to admit, tasks lists are my favorite:
+Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
+#### Syntax highlighting
+Here’s an example of how you can use syntax highlighting with GitHub Flavored Markdown:
 
-When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
-
-And, of course emoji!
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
+You can also simply indent your code by four spaces:
 
-GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+Here’s an example of Python code without syntax highlighting:
 
-But I have to admit, tasks lists are my favorite:
+def foo():
+    if not bar:
+        return True
+#### Task Lists
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
+#### Tables
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
-When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+Would become:
 
-And, of course emoji!
+First Header	Second Header
+Content from cell 1	Content from cell 2
+Content in the first column	Content in the second column
+
+#### Username @mentions
+Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
+
+#### #### #### Automatic linking for URLs
+Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
+
+#### Emoji
+GitHub supports emoji!
+
+To see a list of every image we support, check out the Emoji Cheat Sheet.
 
 ![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
 

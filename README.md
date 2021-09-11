@@ -137,5 +137,5 @@ This is a code section:
 this is code
 You can also “cheat”, adding HTML-formatted text when markdown seems too limited, but first look at these resources to find solutions:
 
-![image](https://user-images.githubusercontent.com/64991656/132938396-87c1a13d-a230-458d-80ac-5aa8a811966d.png)
+![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
 

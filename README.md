@@ -189,6 +189,17 @@ If you add another dash in the following line, you will have another item in the
 If you add four spaces or use a tab key, you will create an indented list.
 If you need to insert an indented list within an intended one, just press a tab key again.
 
+```markdown
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+```
+The formatted text will look like this:
+* Start a line with a star
+* Profit!
+
+
 ### Ordered lists
 
 Other times, you may want to present your information sequentially in ordered lists (1, 2, 3, and so on). Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.

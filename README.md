@@ -32,6 +32,7 @@ It makes it easier for non-tech writers to produce documentation that can be col
 ## How to use Markdown
 ### Formatting text in Markdown
 To format the text, follow these rules:
+<br>
 ![image](https://user-images.githubusercontent.com/64991656/132937970-c8d752c2-5bd7-4023-a9c3-a7ba0713db06.png)
 
 - For italics, wrap the item with one star on each side: *one star on each side*.

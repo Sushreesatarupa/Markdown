@@ -43,24 +43,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
 ---
 
 

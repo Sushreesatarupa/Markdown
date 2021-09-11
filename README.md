@@ -8,8 +8,6 @@ Markdown is a free markup language with simple formatting syntax. Use it for cre
 ### Why use Markdown?
 It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
 
-![image](https://user-images.githubusercontent.com/64991656/132938550-95b79989-f4f3-442b-96f0-6fb63150bdd2.png)
-
 
 ```markdown
 Syntax highlighted code block
@@ -32,7 +30,23 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
 
 
 

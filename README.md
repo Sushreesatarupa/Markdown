@@ -65,167 +65,6 @@ Syntax highlighted code block
 
 
 
-## How to use Markdown
-### Formatting text in Markdown
-To format the text, follow these rules:
-<br>
-
-```markdown
-- The formatted text will look like this:
-- For italics, wrap the item with one star on each side: *one star on each side*.
-- For bold text, wrap the item with two stars on each side: **two stars on each side**.
-- For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
-- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
-```
-
-- The formatted text will look like this:
-- For italics, wrap the item with one star on each side: *one star on each side*.
-- For bold text, wrap the item with two stars on each side: **two stars on each side**.
-- For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
-- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
-
-
-### Adding images
-Adding images is like adding links. Just add an exclamation mark at the beginning of the line:
-```markdown
-![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
-
-```
-
-The image will look like this:
-<br>
-![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
-
-
-### How to produce lists?
-#### To add a bulleted or unordered list of items:
-
-```markdown
-- Just add a dash first and then write a text.
-- If you add another dash in the following line, you will have another item in the list.
-  - If you add four spaces or use a tab key, you will create an indented list.
-    - If you need to insert an indented list within an intended one, just press a tab key again.
-```
-
-
-The formatted text will look like this:
-- Just add a dash first and then write a text.
-- If you add another dash in the following line, you will have another item in the list.
-  - If you add four spaces or use a tab key, you will create an indented list.
-    - If you need to insert an indented list within an intended one, just press a tab key again.
-
-Just add a dash first and then write a text.
-If you add another dash in the following line, you will have another item in the list.
-If you add four spaces or use a tab key, you will create an indented list.
-If you need to insert an indented list within an intended one, just press a tab key again.
-
-
-#### To add a numbered or ordered list of items:
-
-```markdown
-1. Just type a number followed by a dot.
-2. If you want to add a second item, just type in another number followed by a dot.
-1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
-    will start from scratch.
-        1. If you want to insert an indented numbered list within an existing indented numbered one,
-        just press the tab key again.
-            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
-            by pressing a tab key and typing a dash.
-```
-The formatted text will look like this:
-1. Just type a number followed by a dot.
-2. If you want to add a second item, just type in another number followed by a dot.
-1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
-    will start from scratch.
-        1. If you want to insert an indented numbered list within an existing indented numbered one,
-        just press the tab key again.
-            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
-            by pressing a tab key and typing a dash.
-            
-Just type a number followed by a dot.
-- If you want to add a second item, just type in another number followed by a dot.
-- If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-- If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
-- If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.
-- If need be, you can also add an indented unordered list within an indented numbered one, an vice versa, by pressing a tab key and typing a dash.
-
-### Headers
-- If you have longer documents, it is better to give them some structure, which you can actually achieve with headers. Do this with hashes (#):
-
-```markdown
-# This is a first-tier header
-
-## This is a second-tier header
-
-### This is a third-tier header
-
-And so on, up to a sixth-tier header.
-```
-
-The formatted text will look like this:
-
-# This is a first-tier header
-
-## This is a second-tier header
-
-### This is a third-tier header
-
-
-### Horizontal Rule
-
-```markdown
-
-```
-Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line:
-
----
-
-* * *
-
-___
-
-The formatted text will look like this:
-
-### Quotes and Code
-Add a quotation with the > character at the beginning of each line:
-```markdown
-> “I make Jessica Simpson look like a rock scientist.”
-
-> —Tara Reid, actress
-The quote will look like this:
-
-“I make Jessica Simpson look like a rock scientist.”
-—Tara Reid, actress
-```
-> “I make Jessica Simpson look like a rock scientist.”
-
-> —Tara Reid, actress
-The quote will look like this:
-
-“I make Jessica Simpson look like a rock scientist.”
-—Tara Reid, actress
-And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
-
-This line contains `code`
-
-This is a code section:
-
-```
-this is code
-```
-Which will look like this:
-
-This line contains code
-
-This is a code section:
-
-this is code
-You can also “cheat”, adding HTML-formatted text when markdown seems too limited, but first look at these resources to find solutions:
-
-![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
-
 
 
 
@@ -267,6 +106,26 @@ To insert a line break into your Markdown file, finish your line with at least t
 Your text will look like this:
 Line 1
 Line 2
+
+## Formatting text in Markdown
+To format the text, follow these rules:
+<br>
+
+```markdown
+- The formatted text will look like this:
+- For italics, wrap the item with one star on each side: *one star on each side*.
+- For bold text, wrap the item with two stars on each side: **two stars on each side**.
+- For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
+- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
+```
+
+- The formatted text will look like this:
+- For italics, wrap the item with one star on each side: *one star on each side*.
+- For bold text, wrap the item with two stars on each side: **two stars on each side**.
+- For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
+- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
+
+
 
 ## Emphasis
 When writing your content in Markdown, you might want to place a bit more emphasis on certain words or phrases. The first way you can emphasise your text is in italics.
@@ -314,9 +173,16 @@ A picture is worth a thousand words, as they say. Inserting an image into your M
 
 Begin your image formatting with an exclamation mark. Next, use square brackets to wrap your image alt text, next to parentheses containing the URL for your image. Ensure there are no spaces between the exclamation mark, square brackets, or parentheses.
 
-Your text will look like this:
-![This is image text](this is an image URL)
-When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
+```markdown
+![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
+
+```
+
+The image will look like this:
+<br>
+![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
+
+<br> When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
 
 ## Lists
 ### Unordered lists
@@ -325,22 +191,61 @@ Sometimes, you may want to format your content in lists to make it easier to rea
 The first option is to use an unordered list, where each item on your list is preceded by a bullet point. Markdown allows you to format your lists with a number of different symbols: asterisks (*), hyphens (-) or plus signs (+).
 
 It’s up to you to choose which symbol you prefer. The result you get is the same.
-Here is an example list:
-* This is a list item
-* This is a list item
-* This is a list item
-* This is a list item
+
+```markdown
+- Just add a dash first and then write a text.
+- If you add another dash in the following line, you will have another item in the list.
+  - If you add four spaces or use a tab key, you will create an indented list.
+    - If you need to insert an indented list within an intended one, just press a tab key again.
+```
+
+
+The formatted text will look like this:
+- Just add a dash first and then write a text.
+- If you add another dash in the following line, you will have another item in the list.
+  - If you add four spaces or use a tab key, you will create an indented list.
+    - If you need to insert an indented list within an intended one, just press a tab key again.
+
+Just add a dash first and then write a text.
+If you add another dash in the following line, you will have another item in the list.
+If you add four spaces or use a tab key, you will create an indented list.
+If you need to insert an indented list within an intended one, just press a tab key again.
 
 ### Ordered lists
 
 Other times, you may want to present your information sequentially in ordered lists (1, 2, 3, and so on). Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.
 
 In Markdown, it doesn’t matter which numbers you use to format your list, as the list will always render as 1, 2, 3, and so on.
-Your text will look like this:
-1. This is a list item
-2. This is a list item
-3. This is a list item
-4. This is a list item
+
+
+```markdown
+1. Just type a number followed by a dot.
+2. If you want to add a second item, just type in another number followed by a dot.
+1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
+    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
+    will start from scratch.
+        1. If you want to insert an indented numbered list within an existing indented numbered one,
+        just press the tab key again.
+            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
+            by pressing a tab key and typing a dash.
+```
+The formatted text will look like this:
+1. Just type a number followed by a dot.
+2. If you want to add a second item, just type in another number followed by a dot.
+1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
+    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
+    will start from scratch.
+        1. If you want to insert an indented numbered list within an existing indented numbered one,
+        just press the tab key again.
+            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
+            by pressing a tab key and typing a dash.
+            
+Just type a number followed by a dot.
+- If you want to add a second item, just type in another number followed by a dot.
+- If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
+- If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
+- If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.
+- If need be, you can also add an indented unordered list within an indented numbered one, an vice versa, by pressing a tab key and typing a dash.
 
 ## Blockquotes
 
@@ -357,6 +262,23 @@ A horizontal rule is a useful little element that you can use to visually split 
 
 Your text will look like this:
 —
+```markdown
+
+Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line:
+---
+
+* * *
+
+___
+
+```
+
+The formatted text will look like this:
+---
+
+* * * 
+
+___
 
 ## Code blocks and snippets
 
@@ -408,4 +330,32 @@ You can insert HTML elements directly into your Markdown file. For example, you 
 Your text should look like this:
 <button>This is a button</button>
 This formatting also works for your other Markdown syntax, such as emphasis. Instead of **This element is bold**, you could format it in HTML as <bold>This element is bold</bold>.
+
+
+
+
+### Quotes
+Add a quotation with the > character at the beginning of each line:
+```markdown
+> “I make Jessica Simpson look like a rock scientist.”
+
+> —Tara Reid, actress
+The quote will look like this:
+
+“I make Jessica Simpson look like a rock scientist.”
+—Tara Reid, actress
+```
+> “I make Jessica Simpson look like a rock scientist.”
+
+> —Tara Reid, actress
+The quote will look like this:
+
+“I make Jessica Simpson look like a rock scientist.”
+—Tara Reid, actress
+And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
+
+
+
+![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
+
 

@@ -109,18 +109,18 @@ When writing your content in Markdown, you might want to place a bit more emphas
 
 You can make your text italic by wrapping your text with one asterisk on each side (alternatively, you can use underscores in place of the asterisks). Once your application detects the second asterisk, your formatting for this element is considered “closed”.
 Your text will look like this:
-  *This text is italic*
-  _This text is also italic_
+- *This text is italic*
+- _This text is also italic_
 
 Bold formatting provides a slightly heavier emphasis than italics, but it works in exactly the same way. This time, use two asterisks to wrap the text you want to make bold (alternatively, you can use underscores in place of asterisks).
 Your text will look like this:
-  **This text is bold**
-  __This text is also bold__
+- **This text is bold**
+- __This text is also bold__
 
 If you really want to make a point, you can make your text simultaneously bold and italic to give it even more weight! To make your text bold and italic, use three asterisks (or three underscores) to wrap your word or phrase.
 Your text will look like this:
-  ***This text is italic and bold.***
-  ___This text is also italic and bold___
+- ***This text is italic and bold.***
+- ___This text is also italic and bold___
 
 ```markdown
 *This text is italic*

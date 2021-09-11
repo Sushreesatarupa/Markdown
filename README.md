@@ -394,12 +394,15 @@ The quote will look like this:
 
 ---
 # GitHub Flavored Markdown
-GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
-
-Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
+- GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
+- Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. 
+- These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. 
+- Task Lists are also available in Gist comments and in Gist Markdown files.
 
 #### Syntax highlighting
-Here’s an example of how you can use syntax highlighting with GitHub Flavored Markdown:
+- Here’s an example of how you can use syntax highlighting with GitHub Flavored Markdown:
+- ![image](https://user-images.githubusercontent.com/64991656/132948334-f9aba46a-93ba-431d-8a10-f97f14256b94.png)
+
 
 ```javascript
 function fancyAlert(arg) {
@@ -408,18 +411,23 @@ function fancyAlert(arg) {
   }
 }
 ```
-You can also simply indent your code by four spaces:
+- You can also simply indent your code by four spaces:
+- ![image](https://user-images.githubusercontent.com/64991656/132948342-4e6d4339-a194-437c-9e5b-d29968bf4e60.png)
 
     function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
       }
     }
-Here’s an example of Python code without syntax highlighting:
+    
+- Here’s an example of Python code without syntax highlighting:
+- ![image](https://user-images.githubusercontent.com/64991656/132948355-37b6f63a-55a7-4f9a-8b3e-16ff38fd1653.png)
+
 
 def foo():
     if not bar:
         return True
+        
 #### Task Lists
 ```markdown
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
@@ -431,10 +439,12 @@ def foo():
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
-If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
+
+- If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. 
+- It also works in Pull Requests!
 
 #### Tables
-You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+- You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 ```markdown
 First Header | Second Header
 ------------ | -------------
@@ -444,15 +454,15 @@ Content in the first column | Content in the second column
 ![image](https://user-images.githubusercontent.com/64991656/132943951-106683e1-60d8-4c18-bb8a-209213e6ed94.png)
 
 #### Username @mentions
-Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
+- Typing an @ symbol, followed by a username, will notify that person to come and view the comment. 
+- This is called an “@mention”, because you’re mentioning the individual. 
+- You can also @mention teams within an organization.
 
 #### Automatic linking for URLs
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
 #### Emoji
 GitHub supports emoji!
-
-To see a list of every image we support, check out the Emoji Cheat Sheet.
 
 ![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
 

@@ -83,7 +83,7 @@ The image will look like this:
 
 
 ### How to produce lists?
-To add a bulleted or unordered list of items:
+#### To add a bulleted or unordered list of items:
 
 ```markdown
 - Just add a dash first and then write a text.
@@ -103,8 +103,11 @@ Just add a dash first and then write a text.
 If you add another dash in the following line, you will have another item in the list.
 If you add four spaces or use a tab key, you will create an indented list.
 If you need to insert an indented list within an intended one, just press a tab key again.
-To add a numbered or ordered list of items:
 
+
+#### To add a numbered or ordered list of items:
+
+```markdown
 1. Just type a number followed by a dot.
 2. If you want to add a second item, just type in another number followed by a dot.
 1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
@@ -114,8 +117,18 @@ To add a numbered or ordered list of items:
         just press the tab key again.
             - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
             by pressing a tab key and typing a dash.
+```
 The formatted text will look like this:
-
+1. Just type a number followed by a dot.
+2. If you want to add a second item, just type in another number followed by a dot.
+1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
+    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
+    will start from scratch.
+        1. If you want to insert an indented numbered list within an existing indented numbered one,
+        just press the tab key again.
+            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
+            by pressing a tab key and typing a dash.
+            
 Just type a number followed by a dot.
 If you want to add a second item, just type in another number followed by a dot.
 If you make a mistake when typing numbers, fear not, Markdown will correct it for you.

@@ -363,33 +363,34 @@ Your text should look like this:
 ---
 
 ## HTML
-You can insert HTML elements directly into your Markdown file. For example, you may want to include a button. Insert your HTML exactly as you would in any other HTML document.
+- You can insert HTML elements directly into your Markdown file. 
+- For example, you may want to include a button. Insert your HTML exactly as you would in any other HTML document.
+```
+<button>This is a button</button>
+```
 Your text should look like this:
 <button>This is a button</button>
-This formatting also works for your other Markdown syntax, such as emphasis. Instead of **This element is bold**, you could format it in HTML as <bold>This element is bold</bold>.
 
+-This formatting also works for your other Markdown syntax, such as emphasis. Instead of **This element is bold**, you could format it in HTML as <bold>This element is bold</bold>.
 
+```
+Instead of **This element is bold**, you could format it in HTML as <bold>This element is bold</bold>.
+```
 
+---
 
 ### Quotes
-Add a quotation with the > character at the beginning of each line:
+- Add a quotation with the > character at the beginning of each line:
 ```markdown
 > “I make Jessica Simpson look like a rock scientist.”
 
 > —Tara Reid, actress
-The quote will look like this:
-
-“I make Jessica Simpson look like a rock scientist.”
-—Tara Reid, actress
 ```
+
+The quote will look like this:
 > “I make Jessica Simpson look like a rock scientist.”
 
 > —Tara Reid, actress
-The quote will look like this:
-
-“I make Jessica Simpson look like a rock scientist.”
-—Tara Reid, actress
-And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
 
 ---
 # GitHub Flavored Markdown

@@ -293,7 +293,7 @@ There are many different ways to style code with GitHub's markdown. If you have 
 
 GitHub also supports something called code fencing, which allows for multiple lines without indentation:
 ![image](https://user-images.githubusercontent.com/64991656/132943033-79e52948-fe5b-468e-9803-b7804d4cf9ae.png)
-
+<br>
 ```
 if (isAwesome){
   return true
@@ -302,7 +302,7 @@ if (isAwesome){
 
 And if you'd like to use syntax highlighting, include the language:
 ![image](https://user-images.githubusercontent.com/64991656/132943045-21b022e4-8723-4957-b536-f3259ac1a60c.png)
-
+<br>
 ```javascript
 if (isAwesome){
   return true

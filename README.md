@@ -361,33 +361,18 @@ Your text will look like this:
 ## Code blocks and snippets
 
 Code snippets
-Often when we’re writing in Markdown, we need to reference snippets of code as examples. This is particularly common in technical documentation. Markdown allows you to format code snippets using backticks (`) that wrap your code snippet. The first backtick “opens” the snippet, and the second backtick “closes” it.
-
+Often when we’re writing in Markdown, we need to reference snippets of code as examples. This is particularly common in technical documentation. Markdown allows you to format code snippets using backticks \` that wrap your code snippet. The first backtick “opens” the snippet, and the second backtick “closes” it.
+```markdown
+`This is a code snippet`
+```
 Your text will look like this:
 `This is a code snippet`
-Code blocks
+
+### Code blocks
 Formatting code blocks is useful when you have a bigger chunk of code to include in your Markdown file. Format your code blocks by indenting every line of your code block using one tab, or four spaces.
 This is a code block
 This is a code block
 This is a code block
-Remember, some extensions of Markdown, such as GitHub Flavored Markdown, support programming language selection and syntax colouring. Original Markdown does not support these styles.
-
-Sign up for your 14-day free trial with Document360 now
-
-GET STARTED
- 
-Reference-style links
-There may come a time in your Markdown writing career that you want to include reference-style links. Instead of inserting your URL inline alongside your link text, the link is listed elsewhere in the Markdown file (usually below the paragraph containing the link, or at the end of the document). Formatting your links in this way makes your Markdown content easier to read.
-Format your reference-style links by enclosing your link text in square brackets, followed by your label in another set of square brackets. The label acts as an anchor.
-Your text should look like this:
-[This is link text][This is a label]
-You format the second part of the link (placed at the end of the paragraph, or bottom of the file) using three attributes.
-1. Your label in square brackets, followed by a colon and at least one space
-2. Your link URL
-3. An optional link title, enclosed in either double quotes, single quotes, or parentheses
-Your text will look like this:
-[This is a label]: This is an URL “This is a link title”
-Most people will list their links in the order they are referenced within the file.
 
 ## Escaping
 Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
@@ -395,6 +380,7 @@ You escape characters in Markdown using a backslash before the character, with n
 Your text should look like this:
 \*
 You can escape any of these characters:
+
 \ backslash
 ` backtick
 * asterisk
@@ -407,6 +393,7 @@ _ underscore
 – minus sign (hyphen)
 . dot
 ! exclamation mark
+
 Lists within blockquotes
 Sometimes, you might want to insert a blockquote into your Markdown that contains another element, such as an unordered list. You need to nest your list formatting inside your blockquote formatting.
 Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your block quote. Add your list formatting (*) just after your greater-than signs.

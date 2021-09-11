@@ -1,8 +1,5 @@
 ## Markdown
 
-
-### Markdown
-
 - Markdown is a lightweight markup language. It allows you to style a digital text document using typical formatting techniques: for example, headings, emphasis, lists, images, and links. Markdown files have extensions .md or .markdown. Also, Markdown can also be converted into XHTML or HTML to display nicely in a browser.
 
 - Some of the many uses of Markdown are readme files, writing messages in online discussion forums, creating rich text using a plain text editor, emails, and technical documentation. Popular sites that use Markdown include GitHub, Trello, Reddit, SourceForge, and StackExchange, among many others.
@@ -398,6 +395,12 @@ def foo():
     if not bar:
         return True
 #### Task Lists
+```markdown
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
@@ -406,16 +409,18 @@ If you include a task list in the first comment of an Issue, you will get a hand
 
 #### Tables
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
-
+```markdown
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 Would become:
 
-First Header	Second Header
-Content from cell 1	Content from cell 2
-Content in the first column	Content in the second column
 
 #### Username @mentions
 Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.

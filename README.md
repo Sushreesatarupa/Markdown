@@ -108,16 +108,19 @@ To format the text, follow these rules:
 When writing your content in Markdown, you might want to place a bit more emphasis on certain words or phrases. The first way you can emphasise your text is in italics.
 
 You can make your text italic by wrapping your text with one asterisk on each side (alternatively, you can use underscores in place of the asterisks). Once your application detects the second asterisk, your formatting for this element is considered “closed”.
+
 Your text will look like this:
 - *This text is italic*
 - _This text is also italic_
 
 Bold formatting provides a slightly heavier emphasis than italics, but it works in exactly the same way. This time, use two asterisks to wrap the text you want to make bold (alternatively, you can use underscores in place of asterisks).
+
 Your text will look like this:
 - **This text is bold**
 - __This text is also bold__
 
 If you really want to make a point, you can make your text simultaneously bold and italic to give it even more weight! To make your text bold and italic, use three asterisks (or three underscores) to wrap your word or phrase.
+
 Your text will look like this:
 - ***This text is italic and bold.***
 - ___This text is also italic and bold___
@@ -125,18 +128,22 @@ Your text will look like this:
 ```markdown
 *This text is italic*
 _This text is also italic_
+
 **This text is bold**
 __This text is also bold__
+
 ***This text is italic and bold.***
 ___This text is also italic and bold___
 
 ```
+--- 
 ## Links (inline)
-Sometimes we want to link to external websites when writing Markdown content. There’s a simple way to do this using two sets of brackets.
-To format an inline link in Markdown, you use square brackets to wrap your link text. Place the square-bracket wrapped link text alongside parentheses containing your URL (make sure you don’t include a space between the link text and the link).
-Your text will look like this:
-
+- Sometimes we want to link to external websites when writing Markdown content. There’s a simple way to do this using two sets of brackets.
+- To format an inline link in Markdown, you use square brackets to wrap your link text. Place the square-bracket wrapped link text alongside parentheses containing your URL (make sure you don’t include a space between the link text and the link).
+- Your text will look like this:
+```markdown
 [This is link text](This is a link URL)
+```
 If you want to add title to your link, insert your alt text next to the link inside quotation marks
 Your text will look like this:
 [This is link text](This is a link URL “This is a title”)
@@ -145,10 +152,11 @@ Note that if you want to link to a local file, within the same server as your ot
 Your text will look like this:
 [This is link text](/This is a relative URL “This is a title”)
 
+---
 ## Images
-A picture is worth a thousand words, as they say. Inserting an image into your Markdown file is similar to the formatting for links.
+- A picture is worth a thousand words, as they say. Inserting an image into your Markdown file is similar to the formatting for links.
 
-Begin your image formatting with an exclamation mark. Next, use square brackets to wrap your image alt text, next to parentheses containing the URL for your image. Ensure there are no spaces between the exclamation mark, square brackets, or parentheses.
+- Begin your image formatting with an exclamation mark. Next, use square brackets to wrap your image alt text, next to parentheses containing the URL for your image. Ensure there are no spaces between the exclamation mark, square brackets, or parentheses.
 
 ```markdown
 ![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
@@ -160,7 +168,7 @@ The image will look like this:
 ![image](https://user-images.githubusercontent.com/64991656/132938832-0394a87c-fb2d-4d7d-b478-d1b7c474df80.png)
 
 <br> When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
-
+---
 ## Lists
 ### Unordered lists
 Sometimes, you may want to format your content in lists to make it easier to read.

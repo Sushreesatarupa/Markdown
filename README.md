@@ -3,7 +3,13 @@
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a free markup language with simple formatting syntax. Use it for creating webpages, documents or any text that needs to be transformed into other formats like HTML.
+
+### Why use Markdown?
+It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
+
+![image](https://user-images.githubusercontent.com/64991656/132938550-95b79989-f4f3-442b-96f0-6fb63150bdd2.png)
+
 
 ```markdown
 Syntax highlighted code block
@@ -11,6 +17,10 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
 
 - Bulleted
 - List
@@ -23,11 +33,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-What is Markdown?
-Markdown is a free markup language with simple formatting syntax. Use it for creating webpages, documents or any text that needs to be transformed into other formats like HTML.
 
-Why use Markdown?
-It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
+
 
 ## How to use Markdown
 ### Formatting text in Markdown

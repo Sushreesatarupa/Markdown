@@ -5,9 +5,24 @@
 
 Markdown is a free markup language with simple formatting syntax. Use it for creating webpages, documents or any text that needs to be transformed into other formats like HTML.
 
+Markdown is a lightweight markup language. It allows you to style a digital text document using typical formatting techniques: for example, headings, emphasis, lists, images, and links. Markdown files are stored as .md or .markdown. Also, Markdown can be optionally converted into XHTML or HTML to display nicely in a browser.
+
+Some of the many uses of Markdown are readme files, writing messages in online discussion forums, creating rich text using a plain text editor, emails, and technical documentation. Popular sites that use Markdown include GitHub, Trello, Reddit, SourceForge, and StackExchange, among many others.
+
+Writers can have as much control over the presentation of their information without resorting to full HTML tagging. At the same time, Markdown parsers also support dropping in blocks of HTML code that add to Markdown’s limited syntax, in case you want to achieve a more complex design 
+
 ### Why use Markdown?
 It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
 
+You don’t even have to be a developer to pick up the basics. The advantage of Markdown is that once you know how it works, it’s very easy to write. It’s intuitively easy to pick up because it’s based on email formatting conventions that many people have been exposed to already.
+
+You can also easily read Markdown in its raw state, unlike for example raw HTML, which is full of tags. The Markdown syntax flows perfectly with the rest of your writing, and it’s intuitively clear what the syntax means.
+
+Markdown is platform-independent, which means you can create Markdown files in any text editor. It’s useful across many different websites and applications.
+
+It’s a reusable skill. Markdown is versatile, so you learn it once, and you can use it for lots of different activities. You can use Markdown to take notes, create content for a website, or produce print-ready documents.
+
+# Basics of Markdown
 
 ```markdown
 Syntax highlighted code block
@@ -210,4 +225,200 @@ this is code
 You can also “cheat”, adding HTML-formatted text when markdown seems too limited, but first look at these resources to find solutions:
 
 ![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
+
+
+
+
+## Headings
+All Markdown files should contain headers. You need a level 1 header for the title of your Markdown file, and at least level 2 headers for the subheadings within the body text. Headings make your text more readable and help to break up the topics.
+
+In Markdown, headings are formatted with hashes (#) in front of the line containing your heading. You can use up to six hashes, with the number of hashes corresponding to a heading level.
+
+```markdown
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+```
+Your text will look like this:
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+
+## Paragraphs
+When writing your Markdown body text, you’ll likely want to split your information up into paragraphs (with a noticeable gap between each paragraph). Paragraphs are divided by a blank line (a line containing no characters) between consecutive paragraphs.
+
+Your text will look like this:
+Paragraph 1
+
+Paragraph 2
+
+## Line breaks
+
+Sometimes, you’ll want to split your information up by inserting a new line, with less space than you’d get from formatting as a paragraph. This is called a line break.
+
+To insert a line break into your Markdown file, finish your line with at least two spaces and press return. This will render a new line for your text.
+
+Your text will look like this:
+Line 1
+Line 2
+
+## Emphasis
+When writing your content in Markdown, you might want to place a bit more emphasis on certain words or phrases. The first way you can emphasise your text is in italics.
+
+You can make your text italic by wrapping your text with one asterisk on each side (alternatively, you can use underscores in place of the asterisks). Once your application detects the second asterisk, your formatting for this element is considered “closed”.
+Your text will look like this:
+*This text is italic*
+_This text is also italic_
+
+Bold formatting provides a slightly heavier emphasis than italics, but it works in exactly the same way. This time, use two asterisks to wrap the text you want to make bold (alternatively, you can use underscores in place of asterisks).
+Your text will look like this:
+**This text is bold**
+__This text is also bold__
+
+If you really want to make a point, you can make your text simultaneously bold and italic to give it even more weight! To make your text bold and italic, use three asterisks (or three underscores) to wrap your word or phrase.
+Your text will look like this:
+***This text is italic and bold.***
+___This text is also italic and bold___
+
+```markdown
+*This text is italic*
+_This text is also italic_
+**This text is bold**
+__This text is also bold__
+***This text is italic and bold.***
+___This text is also italic and bold___
+
+```
+## Links (inline)
+Sometimes we want to link to external websites when writing Markdown content. There’s a simple way to do this using two sets of brackets.
+To format an inline link in Markdown, you use square brackets to wrap your link text. Place the square-bracket wrapped link text alongside parentheses containing your URL (make sure you don’t include a space between the link text and the link).
+Your text will look like this:
+
+[This is link text](This is a link URL)
+If you want to add title to your link, insert your alt text next to the link inside quotation marks
+Your text will look like this:
+[This is link text](This is a link URL “This is a title”)
+
+Note that if you want to link to a local file, within the same server as your other Markdown files, you can format your link with a forward slash followed by the relative URL.
+Your text will look like this:
+[This is link text](/This is a relative URL “This is a title”)
+
+## Images
+A picture is worth a thousand words, as they say. Inserting an image into your Markdown file is similar to the formatting for links.
+
+Begin your image formatting with an exclamation mark. Next, use square brackets to wrap your image alt text, next to parentheses containing the URL for your image. Ensure there are no spaces between the exclamation mark, square brackets, or parentheses.
+
+Your text will look like this:
+![This is image text](this is an image URL)
+When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
+
+## Lists
+### Unordered lists
+Sometimes, you may want to format your content in lists to make it easier to read.
+
+The first option is to use an unordered list, where each item on your list is preceded by a bullet point. Markdown allows you to format your lists with a number of different symbols: asterisks (*), hyphens (-) or plus signs (+).
+
+It’s up to you to choose which symbol you prefer. The result you get is the same.
+Here is an example list:
+* This is a list item
+* This is a list item
+* This is a list item
+* This is a list item
+
+### Ordered lists
+
+Other times, you may want to present your information sequentially in ordered lists (1, 2, 3, and so on). Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.
+
+In Markdown, it doesn’t matter which numbers you use to format your list, as the list will always render as 1, 2, 3, and so on.
+Your text will look like this:
+1. This is a list item
+2. This is a list item
+3. This is a list item
+4. This is a list item
+
+## Blockquotes
+
+Sometimes in Markdown, we will want to reference an external source using quotation marks. This is called a blockquote. You represent any blockquote by preceding the first line of the block quote with a greater-than sign or angle bracket (>). Gruber recommends inserting the angle bracket before every line of your blockquote.
+
+Your text will look like this:
+> This is a blockquote
+> This is a blockquote
+> This is a blockquote
+
+
+## Horizontal rules
+A horizontal rule is a useful little element that you can use to visually split up blocks of text within your Markdown file. A horizontal rule is represented by three or more hyphens (-), asterisks (*), or underscores (_). Whichever symbol you use renders the same output.
+
+Your text will look like this:
+—
+
+## Code blocks and snippets
+
+Code snippets
+Often when we’re writing in Markdown, we need to reference snippets of code as examples. This is particularly common in technical documentation. Markdown allows you to format code snippets using backticks (`) that wrap your code snippet. The first backtick “opens” the snippet, and the second backtick “closes” it.
+
+Your text will look like this:
+`This is a code snippet`
+Code blocks
+Formatting code blocks is useful when you have a bigger chunk of code to include in your Markdown file. Format your code blocks by indenting every line of your code block using one tab, or four spaces.
+This is a code block
+This is a code block
+This is a code block
+Remember, some extensions of Markdown, such as GitHub Flavored Markdown, support programming language selection and syntax colouring. Original Markdown does not support these styles.
+
+Sign up for your 14-day free trial with Document360 now
+
+GET STARTED
+ 
+Reference-style links
+There may come a time in your Markdown writing career that you want to include reference-style links. Instead of inserting your URL inline alongside your link text, the link is listed elsewhere in the Markdown file (usually below the paragraph containing the link, or at the end of the document). Formatting your links in this way makes your Markdown content easier to read.
+Format your reference-style links by enclosing your link text in square brackets, followed by your label in another set of square brackets. The label acts as an anchor.
+Your text should look like this:
+[This is link text][This is a label]
+You format the second part of the link (placed at the end of the paragraph, or bottom of the file) using three attributes.
+1. Your label in square brackets, followed by a colon and at least one space
+2. Your link URL
+3. An optional link title, enclosed in either double quotes, single quotes, or parentheses
+Your text will look like this:
+[This is a label]: This is an URL “This is a link title”
+Most people will list their links in the order they are referenced within the file.
+
+## Escaping
+Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
+You escape characters in Markdown using a backslash before the character, with no space in between.
+Your text should look like this:
+\*
+You can escape any of these characters:
+\ backslash
+` backtick
+* asterisk
+_ underscore
+{} curly braces
+[] square brackets
+() parentheses
+# hash symbol
++ plus sign
+– minus sign (hyphen)
+. dot
+! exclamation mark
+Lists within blockquotes
+Sometimes, you might want to insert a blockquote into your Markdown that contains another element, such as an unordered list. You need to nest your list formatting inside your blockquote formatting.
+Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your block quote. Add your list formatting (*) just after your greater-than signs.
+Your text should look like this:
+> This is a blockquote
+> * This is a list item within a blockquote
+> * This is a list item within a blockquote
+> * This is a list item within a blockquote
+
+## HTML
+You can insert HTML elements directly into your Markdown file. For example, you may want to include a button. Insert your HTML exactly as you would in any other HTML document.
+Your text should look like this:
+<button>This is a button</button>
+This formatting also works for your other Markdown syntax, such as emphasis. Instead of **This element is bold**, you could format it in HTML as <bold>This element is bold</bold>.
 

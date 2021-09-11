@@ -35,17 +35,14 @@ To format the text, follow these rules:
 <br>
 ![image](https://user-images.githubusercontent.com/64991656/132937970-c8d752c2-5bd7-4023-a9c3-a7ba0713db06.png)
 
+- The formatted text will look like this:
 - For italics, wrap the item with one star on each side: *one star on each side*.
 - For bold text, wrap the item with two stars on each side: **two stars on each side**.
 - For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
 - For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
-- The formatted text will look like this:
 
-For italics, wrap the item with one star on each side, like this: one star on each side.
-For bold letters, wrap the item with two stars on each side: two stars on each side.
-For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
-For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): This text links to WritetheDocs.
-Adding images
+
+### Adding images
 Adding images is like adding links. Just add an exclamation mark at the beginning of the line:
 
 ![alt text](https://pbs.twimg.com/profile_images/556169790587281409/AwkaVrhP_400x400.png).
@@ -139,3 +136,6 @@ This is a code section:
 
 this is code
 You can also “cheat”, adding HTML-formatted text when markdown seems too limited, but first look at these resources to find solutions:
+
+![image](https://user-images.githubusercontent.com/64991656/132938396-87c1a13d-a230-458d-80ac-5aa8a811966d.png)
+

@@ -369,8 +369,8 @@ The quote will look like this:
 —Tara Reid, actress
 And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
 
-
-## GitHub Flavored Markdown
+---
+# GitHub Flavored Markdown
 GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
 
 Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
@@ -420,7 +420,7 @@ Content in the first column	Content in the second column
 #### Username @mentions
 Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
 
-#### #### #### Automatic linking for URLs
+#### Automatic linking for URLs
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
 #### Emoji

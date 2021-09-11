@@ -286,24 +286,14 @@ This is a code block
 This is a code block
 
 There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
-```markdown
-if (isAwesome){
-      return true
-    }
-```
 
     if (isAwesome){
       return true
     }
 
 GitHub also supports something called code fencing, which allows for multiple lines without indentation:
-```markdown
-```
-if (isAwesome){
-  return true
-}
-```
-```
+![image](https://user-images.githubusercontent.com/64991656/132943033-79e52948-fe5b-468e-9803-b7804d4cf9ae.png)
+
 ```
 if (isAwesome){
   return true
@@ -311,13 +301,8 @@ if (isAwesome){
 ```
 
 And if you'd like to use syntax highlighting, include the language:
-```markdown
-```javascript
-if (isAwesome){
-  return true
-}
-```
-```
+![image](https://user-images.githubusercontent.com/64991656/132943045-21b022e4-8723-4957-b536-f3259ac1a60c.png)
+
 ```javascript
 if (isAwesome){
   return true

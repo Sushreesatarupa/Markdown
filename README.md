@@ -380,7 +380,7 @@ You escape characters in Markdown using a backslash before the character, with n
 Your text should look like this:
 \*
 You can escape any of these characters:
-
+```
 \ backslash
 ` backtick
 * asterisk
@@ -393,7 +393,7 @@ _ underscore
 – minus sign (hyphen)
 . dot
 ! exclamation mark
-
+```
 Lists within blockquotes
 Sometimes, you might want to insert a blockquote into your Markdown that contains another element, such as an unordered list. You need to nest your list formatting inside your blockquote formatting.
 Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your block quote. Add your list formatting (*) just after your greater-than signs.

@@ -159,6 +159,10 @@ The formatted text will look like this:
 
 
 ### Horizontal Rule
+
+```markdown
+
+```
 Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line:
 
 ---
@@ -169,9 +173,17 @@ ___
 
 The formatted text will look like this:
 
-Quotes and Code
+### Quotes and Code
 Add a quotation with the > character at the beginning of each line:
+```markdown
+> “I make Jessica Simpson look like a rock scientist.”
 
+> —Tara Reid, actress
+The quote will look like this:
+
+“I make Jessica Simpson look like a rock scientist.”
+—Tara Reid, actress
+```
 > “I make Jessica Simpson look like a rock scientist.”
 
 > —Tara Reid, actress

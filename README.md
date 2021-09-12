@@ -70,9 +70,11 @@ Your text will look like this:
 When writing your Markdown body text, you’ll likely want to split your information up into paragraphs (with a noticeable gap between each paragraph). Paragraphs are divided by a blank line (a line containing no characters) between consecutive paragraphs.
 
 Your text will look like this:
+
 Paragraph 1
 
 Paragraph 2
+
 ---
 ## Line breaks
 

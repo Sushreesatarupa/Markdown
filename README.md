@@ -106,8 +106,7 @@ To format the text, follow these rules:
 - For italics, wrap the item with one star on each side: *one star on each side*.
 - For bold text, wrap the item with two stars on each side: **two stars on each side**.
 - For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
-- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org).
-
+- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to Markdown](https://sushreesatarupa.github.io/Markdown/).
 ---
 
 ## Emphasis

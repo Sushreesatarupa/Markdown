@@ -83,8 +83,12 @@ Sometimes, you’ll want to split your information up by inserting a new line, w
 To insert a line break into your Markdown file, finish your line with at least two spaces and press return. This will render a new line for your text.
 
 Your text will look like this:
-Line 1
+
+Line 1  
 Line 2
+
+
+
 ---
 ## Formatting text in Markdown
 To format the text, follow these rules:

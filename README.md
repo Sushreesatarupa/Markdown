@@ -506,7 +506,7 @@ GitHub supports emoji!
 
 ---
 
-### Contributers
+### Contributors
 <a href="https://github.com/Sushreesatarupa/Markdown/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Sushreesatarupa/Markdown" />
 </a>

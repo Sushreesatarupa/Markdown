@@ -550,6 +550,13 @@ Any URL (like http://www.github.com/) will be automatically converted into a cli
 #### Emoji
 GitHub supports emoji!
 
+---
+
+### Need help to insert emojis? Check out these resources!
+
+- <a href="https://unicode.org/emoji/charts/full-emoji-list.html">Emoji Chart</a>
+- <a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji Cheat Sheet</a>
+
 ![image](https://user-images.githubusercontent.com/64991656/132938448-e83bc0d0-f37e-4c5e-8a45-2f4443f5c169.png)
 
 ---

@@ -554,11 +554,20 @@ GitHub supports emoji!
 
 ---
 
-###Sample Project README:
+###Sample Project README
 
--<a href="https://github.com/mongodb/docs-tools">MongoDB Docs-Tools</a>
--<a href="https://github.com/raspberrypi/documentation">RaspberryPi Documentation</a>
--<a href="https://github.com/Sushreesatarupa/Getting-Started-With-Github">Getting started with GitHub</a>
--<a href="https://github.com/Sushreesatarupa/Value-Chain">Project 'Value-Chain'</a>
--<a href="https://github.com/Sayansree/Good-touch--Bad-touch">Project 'Good Touch Bad Touch'</a>
+- <a href="https://github.com/mongodb/docs-tools">MongoDB Docs-Tools</a>
+- <a href="https://github.com/raspberrypi/documentation">RaspberryPi Documentation</a>
+- <a href="https://github.com/Sushreesatarupa/Getting-Started-With-Github">Getting started with GitHub</a>
+- <a href="https://github.com/Sushreesatarupa/Value-Chain">Project 'Value-Chain'</a>
+- <a href="https://github.com/Sayansree/Good-touch--Bad-touch">Project 'Good Touch Bad Touch'</a>
+
+---
+
+###Resources
+- <a href="https://www.youtube.com/watch?v=qrbH-eKXcTY&list=PL2FviLYGTpU099s3cKYV_qyoeQCFqPUZn&index=9">Project README Structure</a>
+- <a href="https://www.youtube.com/watch?v=HUvzguC-UTg">Pitching Project</a>
+- <a href="https://www.geeksforgeeks.org/what-is-readme-md-file/">What is README file?</a>
+- <a href="https://satarupa.hashnode.dev/readmemd-of-a-project">README.md of a project</a>
+
 
